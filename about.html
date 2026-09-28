@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="about.title">About — Daffa Irawan</title>
+<meta name="description" data-i18n-attr="content:about.desc" content="About Daffa Irawan — RPL student at SMKN 6 Jakarta, part of Index Studio. Education, skills and tools across web, desktop and game development.">
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add("i18n-init");</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">DAFFA<span>.</span></a>
+    <div class="nav-links">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="about.html" class="active" data-i18n="nav.about">About Me</a>
+      <a href="projects.html" data-i18n="nav.projects">Projects</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <div class="lang-switch" role="group" aria-label="Language switcher">
+        <button type="button" class="lang-btn" data-lang="id">ID</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="contact.html" class="nav-cta" data-i18n="nav.cta">Let's talk</a>
+      <button class="nav-toggle" aria-label="Toggle menu" data-i18n-attr="aria-label:common.toggleMenu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <ul>
+    <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+    <li><a href="about.html" class="active" data-i18n="nav.about">About Me</a></li>
+    <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+    <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+  </ul>
+</div>
+
+<header class="page-header">
+  <div class="container">
+    <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+    <h1 class="page-header-title" data-i18n-html="about.headerTitle">Profile &amp; background.</h1>
+    <p class="page-header-sub" data-i18n="about.headerSub">A closer look at my education, the studio I work with, and the tools I use to build software.</p>
+  </div>
+</header>
+
+<!-- ABOUT ME -->
+<section class="section">
+  <div class="container">
+    <div class="about-grid">
+      <div data-aos="fade-up">
+        <p class="eyebrow" data-i18n="about.aboutMeEyebrow">About Me</p>
+        <p class="about-lead" data-i18n-html="about.lead">I'm <strong>Daffa Irawan</strong>, a Software Engineering student based in Jakarta.</p>
+      </div>
+      <div class="about-body" data-aos="fade-up">
+        <p data-i18n="about.body1">I study Rekayasa Perangkat Lunak (Software Engineering) at SMKN 6 Jakarta, where I learn the fundamentals of building software properly — from planning and databases to interfaces and deployment.</p>
+        <p data-i18n-html="about.body2">Outside the classroom, I'm part of <strong>Index Studio</strong>, where I get to apply what I learn on real projects alongside other developers. I enjoy working across different kinds of software: web platforms, desktop tools, and the occasional game prototype in Godot.</p>
+        <p data-i18n="about.body3">I care about writing code that's easy to maintain and interfaces that are easy to use — and I'm always looking for the next thing to build.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section section-paper">
+  <div class="container">
+    <div class="about-grid">
+      <div data-aos="fade-up">
+        <p class="eyebrow" data-i18n="about.eduEyebrow">Education</p>
+        <h2 class="section-title" style="font-size:32px;" data-i18n="about.eduTitle">Formal training</h2>
+      </div>
+      <div data-aos="fade-up">
+        <div class="info-table">
+          <div class="info-row">
+            <span class="label mono" data-i18n="about.labelInstitution">Institution</span>
+            <span class="value">SMKN 6 Jakarta</span>
+          </div>
+          <div class="info-row">
+            <span class="label mono" data-i18n="about.labelProgram">Program</span>
+            <span class="value">Rekayasa Perangkat Lunak (Software Engineering)</span>
+          </div>
+          <div class="info-row">
+            <span class="label mono" data-i18n="about.labelStatus">Status</span>
+            <span class="value" data-i18n="about.valueStatus">Currently studying</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INDEX STUDIO -->
+<section class="section">
+  <div class="container">
+    <div class="about-grid">
+      <div data-aos="fade-up">
+        <p class="eyebrow">Index Studio</p>
+        <h2 class="section-title" style="font-size:32px;" data-i18n="about.studioTitle">Where I work</h2>
+      </div>
+      <div class="about-body" data-aos="fade-up">
+        <p data-i18n-html="about.studioBody">I'm currently part of <strong>Index Studio</strong>, a small team where I contribute as a developer on ongoing projects. It's where I get hands-on experience turning briefs into shipped software, working with real constraints and real feedback.</p>
+        <div class="info-table" style="margin-top:8px;">
+          <div class="info-row">
+            <span class="label mono" data-i18n="about.labelStudio">Studio</span>
+            <span class="value">Index Studio</span>
+          </div>
+          <div class="info-row">
+            <span class="label mono" data-i18n="about.labelWebsite">Website</span>
+            <span class="value"><a href="https://indexstudio.my.id" target="_blank" rel="noopener">indexstudio.my.id</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS & TOOLS -->
+<section class="section section-paper">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow" data-i18n-html="about.stackEyebrow">Skills &amp; Tools</p>
+        <h2 class="section-title" data-i18n="about.stackTitle">What I work with</h2>
+      </div>
+      <p class="section-note" data-i18n="about.stackNote">Organized by area — from front-end interfaces to desktop applications and game development.</p>
+    </div>
+
+    <div class="stack-grid" data-aos="fade-up">
+      <div class="stack-cat">
+        <span class="cat-label mono" data-i18n="about.catFrontend">Frontend</span>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </div>
+      <div class="stack-cat">
+        <span class="cat-label mono" data-i18n="about.catBackend">Backend</span>
+        <ul>
+          <li>PHP</li>
+          <li>Laravel</li>
+        </ul>
+      </div>
+      <div class="stack-cat">
+        <span class="cat-label mono" data-i18n="about.catDesktop">Desktop</span>
+        <ul>
+          <li>C#</li>
+          <li>Guna2 Desktop</li>
+        </ul>
+      </div>
+      <div class="stack-cat">
+        <span class="cat-label mono" data-i18n="about.catDatabase">Database</span>
+        <ul>
+          <li>MySQL</li>
+          <li>SQL Server Management</li>
+        </ul>
+      </div>
+      <div class="stack-cat" style="grid-column: 1 / -1;">
+        <span class="cat-label mono" data-i18n="about.catGameDev">Game Development</span>
+        <ul>
+          <li>Godot</li>
+          <li>Unity</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section class="section" id="certificates">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow" data-i18n="about.certEyebrow">Certificates</p>
+        <h2 class="section-title" data-i18n="about.certTitle">Credentials</h2>
+      </div>
+      <p class="section-note" data-i18n="about.certNote">Certificates will be added here as they're earned.</p>
+    </div>
+
+    <!--
+      To add a certificate, duplicate the .cert-card block below
+      inside .cert-grid and update the image, title, issuer, date and link.
+
+      <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/images/certificates/example.jpg" alt="Certificate title">
+        </div>
+        <div class="cert-body">
+          <div class="cert-title">Certificate Title</div>
+          <div class="cert-meta mono">Issuer — Month Year</div>
+          <a class="cert-link" href="assets/images/certificates/example.jpg" download>Download ↓</a>
+        </div>
+      </div>
+    -->
+
+    <div class="cert-grid" data-aos="fade-up">
+      <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/images/certificates/lia1.jpeg" alt="English Language">
+        </div>
+        <div class="cert-body">
+          <div class="cert-title" data-i18n="about.cert1Title">English language certificate</div>
+          <div class="cert-meta mono">LIA Pengadegan 2026</div>
+          <a class="cert-link cert-show" href="#" data-image="assets/images/certificates/lia1.jpeg"><span data-i18n="about.certShow">Show</span> ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/images/certificates/AI.png" alt="AI Course">
+        </div>
+        <div class="cert-body">
+          <div class="cert-title" data-i18n="about.cert2Title">AI Course Certification by Anthropic Academy</div>
+          <div class="cert-meta mono">Anthropic Academy 2026</div>
+          <a class="cert-link cert-show" href="#" data-image="assets/images/certificates/AI.png"><span data-i18n="about.certShow">Show</span> ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/images/certificates/timedoor.jpeg" alt="Web Development">
+        </div>
+        <div class="cert-body">
+          <div class="cert-title" data-i18n="about.cert3Title">Software Developer - Web Developer By Timedoor Academy</div>
+          <div class="cert-meta mono">Timedoor Academy 2025</div>
+          <a class="cert-link cert-show" href="#" data-image="assets/images/certificates/timedoor.jpeg"><span data-i18n="about.certShow">Show</span> ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/images/certificates/pkk.jpeg" alt="Product Marketing Training">
+        </div>
+        <div class="cert-body">
+          <div class="cert-title" data-i18n="about.cert4Title">entrepreneurship and product marketing training</div>
+          <div class="cert-meta mono">PT. Hanasta Alya Mandiri 2025</div>
+          <a class="cert-link cert-show" href="#" data-image="assets/images/certificates/pkk.jpeg"><span data-i18n="about.certShow">Show</span> ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/images/certificates/duta1.jpeg" alt="Brand Ambassador">
+        </div>
+        <div class="cert-body">
+          <div class="cert-title" data-i18n="about.cert5Title">Student Ambassador of SMKN 6 Jakarta</div>
+          <div class="cert-meta mono">Period 2025-2026</div>
+          <a class="cert-link cert-show" href="#" data-image="assets/images/certificates/duta1.jpeg"><span data-i18n="about.certShow">Show</span> ↗</a>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/images/certificates/AI1.png" alt="Brand Ambassador">
+        </div>
+        <div class="cert-body">
+          <div class="cert-title" data-i18n="about.cert6Title">AI Fluency of Anthropic Academy</div>
+          <div class="cert-meta mono">Anthropic Academy 2026</div>
+          <a class="cert-link cert-show" href="#" data-image="assets/images/certificates/AI1.png"><span data-i18n="about.certShow">Show</span> ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Certificate Modal -->
+<div class="cert-modal" id="certModal">
+  <div class="cert-modal-overlay"></div>
+  <div class="cert-modal-content">
+    <button class="cert-modal-close" aria-label="Close" data-i18n-attr="aria-label:common.close">&times;</button>
+    <img class="cert-modal-image" src="" alt="Certificate">
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <a href="index.html" class="footer-logo">DAFFA<span>.</span></a>
+      <div class="footer-links">
+        <div class="footer-col">
+          <span class="footer-col-title" data-i18n="footer.navigate">Navigate</span>
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="about.html" data-i18n="nav.about">About Me</a>
+          <a href="projects.html" data-i18n="nav.projects">Projects</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title" data-i18n="footer.studio">Studio</span>
+          <a href="https://indexstudio.my.id" target="_blank" rel="noopener">Index Studio</a>
+          <span>SMKN 6 Jakarta</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-social">
+      <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Daffa Irawan</span>
+      <span>Jakarta, Indonesia</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
